@@ -1,676 +1,674 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 신작애니 PBN 빌더 - 공식 정보</title>
-    <meta name="description" content="마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축. 전화 010-6279-0862.">
-    <meta name="keywords" content="PBN 빌더, 신작애니, 마포, 애니메이션 제작, 브루탈리스트 디자인, raw-concrete">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <link rel="canonical" href="https://sf-t3-1779642675702-191.maphoshirts.xyz/about.html">
-    <meta property="og:title" content="마포 신작애니 PBN 빌더 - 공식 정보">
-    <meta property="og:description" content="마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축. 전화 010-6279-0862.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sf-t3-1779642675702-191.maphoshirts.xyz/about.html">
-    <meta property="og:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="마포 신작애니 PBN 빌더 - 정보">
-    <meta name="twitter:description" content="마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축.">
-    <meta name="twitter:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "PBN 빌더",
-        "description": "마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축.",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "마포",
-            "addressCountry": "KR"
-        },
-        "telephone": "+82-10-6279-0862",
-        "url": "https://sf-t3-1779642675702-191.vercel.app",
-        "areaServed": "마포",
-        "priceRange": "₩₩₩₩"
-    }
-    </script>
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: "Courier New", "Lucida Console", monospace, "Segoe UI", system-ui, sans-serif;
-            background-color: #e5e5e5;
-            color: #1a1a1a;
-            line-height: 1.4;
-            letter-spacing: -0.02em;
-            max-width: 100%;
-            overflow-x: hidden;
-        }
-
-        /* === RAW CONCRETE THEME === */
-        h1, h2, h3, h4, h5, h6 {
-            font-family: "Impact", "Arial Black", "Helvetica Neue", sans-serif;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: -0.03em;
-        }
-
-        h1 { font-size: 4rem; line-height: 0.9; margin-bottom: 0.5rem; }
-        h2 { font-size: 3rem; line-height: 1; margin-bottom: 0.5rem; }
-        h3 { font-size: 2rem; line-height: 1.1; margin-bottom: 0.4rem; }
-
-        a {
-            color: #1a1a1a;
-            text-decoration: underline;
-            text-decoration-thickness: 3px;
-            text-underline-offset: 4px;
-        }
-
-        a:hover {
-            color: #ff6b35;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
-        }
-
-        .container {
-            padding: 48px;
-            max-width: 100%;
-            margin: 0 auto;
-        }
-
-        /* === BRUTALIST BORDERS & TEXTURES === */
-        .brutal-border {
-            border: 4px solid #1a1a1a;
-            padding: 24px;
-            background-color: #e5e5e5;
-            position: relative;
-        }
-
-        .brutal-border::after {
-            content: '';
-            position: absolute;
-            top: -6px;
-            left: -6px;
-            width: calc(100% + 12px);
-            height: calc(100% + 12px);
-            border: 2px solid #ff6b35;
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        .skew-left {
-            transform: rotate(-1.5deg);
-            margin-bottom: 32px;
-        }
-
-        .skew-right {
-            transform: rotate(1.5deg);
-            margin-bottom: 32px;
-        }
-
-        .skew-left-heavy {
-            transform: rotate(-3deg);
-        }
-
-        .skew-right-heavy {
-            transform: rotate(3deg);
-        }
-
-        /* === HEADER & NAVIGATION === */
-        header {
-            background-color: #1a1a1a;
-            color: #e5e5e5;
-            padding: 24px 48px;
-            border-bottom: 6px solid #ff6b35;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
-        }
-
-        .logo {
-            font-family: "Impact", "Arial Black", sans-serif;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            color: #e5e5e5;
-            letter-spacing: -0.04em;
-            text-decoration: none;
-        }
-
-        .logo span {
-            color: #ff6b35;
-        }
-
-        nav {
-            display: flex;
-            gap: 32px;
-            align-items: center;
-        }
-
-        nav a {
-            color: #e5e5e5;
-            text-decoration: none;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 1.1rem;
-            letter-spacing: 0.05em;
-            border-bottom: 3px solid transparent;
-            transition: border-color 0.15s ease;
-        }
-
-        nav a:hover {
-            border-bottom-color: #ff6b35;
-            color: #ff6b35;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 6px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 8px;
-        }
-
-        .hamburger span {
-            display: block;
-            width: 32px;
-            height: 4px;
-            background-color: #e5e5e5;
-            border-radius: 0;
-        }
-
-        .nav-mobile {
-            display: none;
-            width: 100%;
-            flex-direction: column;
-            gap: 16px;
-            padding: 24px 0 0 0;
-            border-top: 3px solid #ff6b35;
-            margin-top: 16px;
-        }
-
-        .nav-mobile a {
-            color: #e5e5e5;
-            text-decoration: none;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 1.3rem;
-            padding: 8px 0;
-            border-bottom: 2px solid #333;
-        }
-
-        /* === HERO SECTION === */
-        .hero {
-            background-color: #1a1a1a;
-            color: #e5e5e5;
-            padding: 80px 48px;
-            margin-bottom: 80px;
-            position: relative;
-            overflow: hidden;
-            border-bottom: 6px solid #ff6b35;
-            border-top: 6px solid #ff6b35;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -40px;
-            right: -40px;
-            width: 200px;
-            height: 200px;
-            background: repeating-linear-gradient(
-                45deg,
-                #ff6b35 0px,
-                #ff6b35 8px,
-                transparent 8px,
-                transparent 16px
-            );
-            transform: rotate(15deg);
-            opacity: 0.3;
-        }
-
-        .hero::after {
-            content: '⚡';
-            position: absolute;
-            bottom: 20px;
-            right: 60px;
-            font-size: 8rem;
-            opacity: 0.15;
-            transform: rotate(-10deg);
-        }
-
-        .hero .container {
-            padding: 0;
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero h1 {
-            font-size: 5rem;
-            margin-bottom: 0.8rem;
-            word-break: break-word;
-        }
-
-        .hero h1 span {
-            color: #ff6b35;
-            display: block;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-            max-width: 70%;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        .hero-cta {
-            display: inline-block;
-            background-color: #ff6b35;
-            color: #1a1a1a;
-            padding: 16px 48px;
-            font-weight: 900;
-            font-size: 1.3rem;
-            text-transform: uppercase;
-            text-decoration: none;
-            border: 4px solid #e5e5e5;
-            transition: all 0.1s ease;
-            letter-spacing: 0.05em;
-        }
-
-        .hero-cta:hover {
-            background-color: #e5e5e5;
-            border-color: #ff6b35;
-            color: #1a1a1a;
-        }
-
-        /* === SECTIONS === */
-        section {
-            padding: 48px;
-            margin-bottom: 80px;
-        }
-
-        .section-title {
-            font-size: 3.5rem;
-            margin-bottom: 48px;
-            position: relative;
-            display: inline-block;
-        }
-
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 100%;
-            height: 6px;
-            background-color: #ff6b35;
-            margin-top: 8px;
-        }
-
-        /* === INFO GRID === */
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
-        }
-
-        .info-card {
-            border: 4px solid #1a1a1a;
-            padding: 32px;
-            background-color: #e5e5e5;
-        }
-
-        .info-card h3 {
-            font-size: 1.8rem;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .info-card p {
-            font-size: 1.1rem;
-            margin-bottom: 0;
-        }
-
-        .info-card .label {
-            display: block;
-            font-weight: 900;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.1em;
-            color: #ff6b35;
-            margin-bottom: 4px;
-        }
-
-        /* === STATS === */
-        .stats-row {
-            display: flex;
-            gap: 32px;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 48px;
-        }
-
-        .stat-item {
-            flex: 1;
-            min-width: 140px;
-            border: 4px solid #1a1a1a;
-            padding: 24px;
-            text-align: center;
-            background-color: #1a1a1a;
-            color: #e5e5e5;
-        }
-
-        .stat-item .number {
-            font-family: "Impact", "Arial Black", sans-serif;
-            font-size: 3.5rem;
-            color: #ff6b35;
-            line-height: 1;
-            display: block;
-        }
-
-        .stat-item .label {
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-            margin-top: 8px;
-            display: block;
-        }
-
-        /* === REVIEWS === */
-        .reviews-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 32px;
-        }
-
-        .review-card {
-            border: 4px solid #1a1a1a;
-            padding: 24px;
-            background-color: #e5e5e5;
-            position: relative;
-        }
-
-        .review-card::before {
-            content: '“';
-            font-size: 4rem;
-            position: absolute;
-            top: -10px;
-            left: 10px;
-            color: #ff6b35;
-            opacity: 0.3;
-            font-family: serif;
-        }
-
-        .review-card .author {
-            font-weight: 900;
-            text-transform: uppercase;
-            font-size: 1.1rem;
-            margin-bottom: 4px;
-        }
-
-        .review-card .date {
-            font-size: 0.85rem;
-            opacity: 0.7;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-        }
-
-        .review-card .stars {
-            color: #ff6b35;
-            font-size: 1.4rem;
-            margin-bottom: 12px;
-            letter-spacing: 4px;
-        }
-
-        .review-card .text {
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-
-        /* === CTA SECTION === */
-        .cta-section {
-            background-color: #1a1a1a;
-            color: #e5e5e5;
-            border-top: 6px solid #ff6b35;
-            border-bottom: 6px solid #ff6b35;
-            padding: 64px 48px;
-            text-align: center;
-        }
-
-        .cta-section h2 {
-            font-size: 3rem;
-            color: #e5e5e5;
-            margin-bottom: 1rem;
-        }
-
-        .cta-section p {
-            font-size: 1.2rem;
-            margin-bottom: 32px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background-color: #ff6b35;
-            color: #1a1a1a;
-            padding: 18px 64px;
-            font-weight: 900;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            text-decoration: none;
-            border: 4px solid #e5e5e5;
-            transition: all 0.1s ease;
-            letter-spacing: 0.05em;
-        }
-
-        .cta-button:hover {
-            background-color: #e5e5e5;
-            border-color: #ff6b35;
-            color: #1a1a1a;
-        }
-
-        /* === FOOTER === */
-        footer {
-            background-color: #1a1a1a;
-            color: #e5e5e5;
-            padding: 32px 48px;
-            border-top: 4px solid #ff6b35;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            gap: 16px;
-        }
-
-        footer p {
-            margin-bottom: 0;
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
-        footer a {
-            color: #ff6b35;
-            text-decoration: underline;
-            text-underline-offset: 3px;
-        }
-
-        /* === RESPONSIVE === */
-        @media (max-width: 768px) {
-            .container {
-                padding: 24px;
-            }
-
-            header {
-                padding: 16px 24px;
-            }
-
-            .logo {
-                font-size: 1.8rem;
-            }
-
-            nav {
-                display: none;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
-            .nav-mobile.active {
-                display: flex;
-            }
-
-            h1 { font-size: 2.8rem; }
-            h2 { font-size: 2.2rem; }
-            .section-title { font-size: 2.5rem; }
-
-            .hero {
-                padding: 48px 24px;
-                margin-bottom: 48px;
-            }
-
-            .hero h1 {
-                font-size: 3.2rem;
-            }
-
-            .hero p {
-                max-width: 100%;
-                font-size: 1rem;
-            }
-
-            .hero::after {
-                font-size: 4rem;
-                bottom: 10px;
-                right: 20px;
-            }
-
-            section {
-                padding: 24px;
-                margin-bottom: 48px;
-            }
-
-            .info-grid {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
-
-            .stats-row {
-                gap: 16px;
-            }
-
-            .stat-item {
-                min-width: 100px;
-                padding: 16px;
-            }
-
-            .stat-item .number {
-                font-size: 2.5rem;
-            }
-
-            .reviews-grid {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
-
-            .cta-section {
-                padding: 40px 24px;
-            }
-
-            .cta-section h2 {
-                font-size: 2rem;
-            }
-
-            .cta-button {
-                padding: 14px 40px;
-                font-size: 1.2rem;
-            }
-
-            footer {
-                padding: 24px;
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .skew-left, .skew-right {
-                transform: none;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                padding: 16px;
-            }
-
-            header {
-                padding: 12px 16px;
-            }
-
-            .logo {
-                font-size: 1.4rem;
-            }
-
-            h1 { font-size: 2.2rem; }
-            h2 { font-size: 1.8rem; }
-            .section-title { font-size: 2rem; }
-
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero-cta {
-                padding: 12px 32px;
-                font-size: 1rem;
-            }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 신작애니 PBN 빌더 - 공식 정보</title>
+ <meta name="description" content="마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축.">
+ <meta name="keywords" content="PBN 빌더, 신작애니, 마포, 애니메이션 제작, 브루탈리스트 디자인, raw-concrete">
+ <link rel="canonical" href="https://sf-t3-1779642675702-191.maphoshirts.xyz/about.html">
+ <meta property="og:title" content="마포 신작애니 PBN 빌더 - 공식 정보">
+ <meta property="og:description" content="마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://sf-t3-1779642675702-191.maphoshirts.xyz/about.html">
+ <meta property="og:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="마포 신작애니 PBN 빌더 - 정보">
+ <meta name="twitter:description" content="마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축.">
+ <meta name="twitter:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "PBN 빌더",
+ "description": "마포 지역 신작애니 제작 전문 PBN 빌더. 원시 콘크리트 감성의 브루탈리스트 디자인으로 데이터 기반 애니메이션 구축.",
+ "address": {
+ "@type": "PostalAddress",
+ "addressLocality": "마포",
+ "addressCountry": "KR"
+ },
+ "telephone": "+82-10-6279-0862",
+ "url": "https://sf-t3-1779642675702-191.vercel.app",
+ "areaServed": "마포",
+ "priceRange": "₩₩₩₩"
+ }
+ </script>
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+
+ body {
+ font-family: "Courier New", "Lucida Console", monospace, "Segoe UI", system-ui, sans-serif;
+ background-color: #e5e5e5;
+ color: #1a1a1a;
+ line-height: 1.4;
+ letter-spacing: -0.02em;
+ max-width: 100%;
+ overflow-x: hidden;
+ }
+
+ /* === RAW CONCRETE THEME === */
+ h1, h2, h3, h4, h5, h6 {
+ font-family: "Impact", "Arial Black", "Helvetica Neue", sans-serif;
+ font-weight: 900;
+ text-transform: uppercase;
+ letter-spacing: -0.03em;
+ }
+
+ h1 { font-size: 4rem; line-height: 0.9; margin-bottom: 0.5rem; }
+ h2 { font-size: 3rem; line-height: 1; margin-bottom: 0.5rem; }
+ h3 { font-size: 2rem; line-height: 1.1; margin-bottom: 0.4rem; }
+
+ a {
+ color: #1a1a1a;
+ text-decoration: underline;
+ text-decoration-thickness: 3px;
+ text-underline-offset: 4px;
+ }
+
+ a:hover {
+ color: #ff6b35;
+ }
+
+ p {
+ margin-bottom: 1rem;
+ font-size: 1.1rem;
+ }
+
+ .container {
+ padding: 48px;
+ max-width: 100%;
+ margin: 0 auto;
+ }
+
+ /* === BRUTALIST BORDERS & TEXTURES === */
+ .brutal-border {
+ border: 4px solid #1a1a1a;
+ padding: 24px;
+ background-color: #e5e5e5;
+ position: relative;
+ }
+
+ .brutal-border::after {
+ content: '';
+ position: absolute;
+ top: -6px;
+ left: -6px;
+ width: calc(100% + 12px);
+ height: calc(100% + 12px);
+ border: 2px solid #ff6b35;
+ z-index: -1;
+ pointer-events: none;
+ }
+
+ .skew-left {
+ transform: rotate(-1.5deg);
+ margin-bottom: 32px;
+ }
+
+ .skew-right {
+ transform: rotate(1.5deg);
+ margin-bottom: 32px;
+ }
+
+ .skew-left-heavy {
+ transform: rotate(-3deg);
+ }
+
+ .skew-right-heavy {
+ transform: rotate(3deg);
+ }
+
+ /* === HEADER & NAVIGATION === */
+ header {
+ background-color: #1a1a1a;
+ color: #e5e5e5;
+ padding: 24px 48px;
+ border-bottom: 6px solid #ff6b35;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 16px;
+ }
+
+ .logo {
+ font-family: "Impact", "Arial Black", sans-serif;
+ font-size: 2.5rem;
+ text-transform: uppercase;
+ color: #e5e5e5;
+ letter-spacing: -0.04em;
+ text-decoration: none;
+ }
+
+ .logo span {
+ color: #ff6b35;
+ }
+
+ nav {
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+
+ nav a {
+ color: #e5e5e5;
+ text-decoration: none;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 1.1rem;
+ letter-spacing: 0.05em;
+ border-bottom: 3px solid transparent;
+ transition: border-color 0.15s ease;
+ }
+
+ nav a:hover {
+ border-bottom-color: #ff6b35;
+ color: #ff6b35;
+ }
+
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ gap: 6px;
+ background: none;
+ border: none;
+ cursor: pointer;
+ padding: 8px;
+ }
+
+ .hamburger span {
+ display: block;
+ width: 32px;
+ height: 4px;
+ background-color: #e5e5e5;
+ border-radius: 0;
+ }
+
+ .nav-mobile {
+ display: none;
+ width: 100%;
+ flex-direction: column;
+ gap: 16px;
+ padding: 24px 0 0 0;
+ border-top: 3px solid #ff6b35;
+ margin-top: 16px;
+ }
+
+ .nav-mobile a {
+ color: #e5e5e5;
+ text-decoration: none;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 1.3rem;
+ padding: 8px 0;
+ border-bottom: 2px solid #333;
+ }
+
+ /* === HERO SECTION === */
+ .hero {
+ background-color: #1a1a1a;
+ color: #e5e5e5;
+ padding: 80px 48px;
+ margin-bottom: 80px;
+ position: relative;
+ overflow: hidden;
+ border-bottom: 6px solid #ff6b35;
+ border-top: 6px solid #ff6b35;
+ }
+
+ .hero::before {
+ content: '';
+ position: absolute;
+ top: -40px;
+ right: -40px;
+ width: 200px;
+ height: 200px;
+ background: repeating-linear-gradient(
+ 45deg,
+ #ff6b35 0px,
+ #ff6b35 8px,
+ transparent 8px,
+ transparent 16px
+ );
+ transform: rotate(15deg);
+ opacity: 0.3;
+ }
+
+ .hero::after {
+ content: '⚡';
+ position: absolute;
+ bottom: 20px;
+ right: 60px;
+ font-size: 8rem;
+ opacity: 0.15;
+ transform: rotate(-10deg);
+ }
+
+ .hero .container {
+ padding: 0;
+ position: relative;
+ z-index: 2;
+ }
+
+ .hero h1 {
+ font-size: 5rem;
+ margin-bottom: 0.8rem;
+ word-break: break-word;
+ }
+
+ .hero h1 span {
+ color: #ff6b35;
+ display: block;
+ }
+
+ .hero p {
+ font-size: 1.3rem;
+ max-width: 70%;
+ margin-bottom: 2rem;
+ opacity: 0.9;
+ }
+
+ .hero-cta {
+ display: inline-block;
+ background-color: #ff6b35;
+ color: #1a1a1a;
+ padding: 16px 48px;
+ font-weight: 900;
+ font-size: 1.3rem;
+ text-transform: uppercase;
+ text-decoration: none;
+ border: 4px solid #e5e5e5;
+ transition: all 0.1s ease;
+ letter-spacing: 0.05em;
+ }
+
+ .hero-cta:hover {
+ background-color: #e5e5e5;
+ border-color: #ff6b35;
+ color: #1a1a1a;
+ }
+
+ /* === SECTIONS === */
+ section {
+ padding: 48px;
+ margin-bottom: 80px;
+ }
+
+ .section-title {
+ font-size: 3.5rem;
+ margin-bottom: 48px;
+ position: relative;
+ display: inline-block;
+ }
+
+ .section-title::after {
+ content: '';
+ display: block;
+ width: 100%;
+ height: 6px;
+ background-color: #ff6b35;
+ margin-top: 8px;
+ }
+
+ /* === INFO GRID === */
+ .info-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 32px;
+ }
+
+ .info-card {
+ border: 4px solid #1a1a1a;
+ padding: 32px;
+ background-color: #e5e5e5;
+ }
+
+ .info-card h3 {
+ font-size: 1.8rem;
+ margin-bottom: 16px;
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ }
+
+ .info-card p {
+ font-size: 1.1rem;
+ margin-bottom: 0;
+ }
+
+ .info-card .label {
+ display: block;
+ font-weight: 900;
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ letter-spacing: 0.1em;
+ color: #ff6b35;
+ margin-bottom: 4px;
+ }
+
+ /* === STATS === */
+ .stats-row {
+ display: flex;
+ gap: 32px;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 48px;
+ }
+
+ .stat-item {
+ flex: 1;
+ min-width: 140px;
+ border: 4px solid #1a1a1a;
+ padding: 24px;
+ text-align: center;
+ background-color: #1a1a1a;
+ color: #e5e5e5;
+ }
+
+ .stat-item .number {
+ font-family: "Impact", "Arial Black", sans-serif;
+ font-size: 3.5rem;
+ color: #ff6b35;
+ line-height: 1;
+ display: block;
+ }
+
+ .stat-item .label {
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ letter-spacing: 0.05em;
+ margin-top: 8px;
+ display: block;
+ }
+
+ /* === REVIEWS === */
+ .reviews-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 32px;
+ }
+
+ .review-card {
+ border: 4px solid #1a1a1a;
+ padding: 24px;
+ background-color: #e5e5e5;
+ position: relative;
+ }
+
+ .review-card::before {
+ content: '“';
+ font-size: 4rem;
+ position: absolute;
+ top: -10px;
+ left: 10px;
+ color: #ff6b35;
+ opacity: 0.3;
+ font-family: serif;
+ }
+
+ .review-card .author {
+ font-weight: 900;
+ text-transform: uppercase;
+ font-size: 1.1rem;
+ margin-bottom: 4px;
+ }
+
+ .review-card .date {
+ font-size: 0.85rem;
+ opacity: 0.7;
+ margin-bottom: 8px;
+ text-transform: uppercase;
+ }
+
+ .review-card .stars {
+ color: #ff6b35;
+ font-size: 1.4rem;
+ margin-bottom: 12px;
+ letter-spacing: 4px;
+ }
+
+ .review-card .text {
+ font-size: 1rem;
+ line-height: 1.5;
+ }
+
+ /* === CTA SECTION === */
+ .cta-section {
+ background-color: #1a1a1a;
+ color: #e5e5e5;
+ border-top: 6px solid #ff6b35;
+ border-bottom: 6px solid #ff6b35;
+ padding: 64px 48px;
+ text-align: center;
+ }
+
+ .cta-section h2 {
+ font-size: 3rem;
+ color: #e5e5e5;
+ margin-bottom: 1rem;
+ }
+
+ .cta-section p {
+ font-size: 1.2rem;
+ margin-bottom: 32px;
+ max-width: 600px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+ .cta-button {
+ display: inline-block;
+ background-color: #ff6b35;
+ color: #1a1a1a;
+ padding: 18px 64px;
+ font-weight: 900;
+ font-size: 1.5rem;
+ text-transform: uppercase;
+ text-decoration: none;
+ border: 4px solid #e5e5e5;
+ transition: all 0.1s ease;
+ letter-spacing: 0.05em;
+ }
+
+ .cta-button:hover {
+ background-color: #e5e5e5;
+ border-color: #ff6b35;
+ color: #1a1a1a;
+ }
+
+ /* === FOOTER === */
+ footer {
+ background-color: #1a1a1a;
+ color: #e5e5e5;
+ padding: 32px 48px;
+ border-top: 4px solid #ff6b35;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ gap: 16px;
+ }
+
+ footer p {
+ margin-bottom: 0;
+ font-size: 0.9rem;
+ opacity: 0.8;
+ }
+
+ footer a {
+ color: #ff6b35;
+ text-decoration: underline;
+ text-underline-offset: 3px;
+ }
+
+ /* === RESPONSIVE === */
+ @media (max-width: 768px) {
+ .container {
+ padding: 24px;
+ }
+
+ header {
+ padding: 16px 24px;
+ }
+
+ .logo {
+ font-size: 1.8rem;
+ }
+
+ nav {
+ display: none;
+ }
+
+ .hamburger {
+ display: flex;
+ }
+
+ .nav-mobile.active {
+ display: flex;
+ }
+
+ h1 { font-size: 2.8rem; }
+ h2 { font-size: 2.2rem; }
+ .section-title { font-size: 2.5rem; }
+
+ .hero {
+ padding: 48px 24px;
+ margin-bottom: 48px;
+ }
+
+ .hero h1 {
+ font-size: 3.2rem;
+ }
+
+ .hero p {
+ max-width: 100%;
+ font-size: 1rem;
+ }
+
+ .hero::after {
+ font-size: 4rem;
+ bottom: 10px;
+ right: 20px;
+ }
+
+ section {
+ padding: 24px;
+ margin-bottom: 48px;
+ }
+
+ .info-grid {
+ grid-template-columns: 1fr;
+ gap: 24px;
+ }
+
+ .stats-row {
+ gap: 16px;
+ }
+
+ .stat-item {
+ min-width: 100px;
+ padding: 16px;
+ }
+
+ .stat-item .number {
+ font-size: 2.5rem;
+ }
+
+ .reviews-grid {
+ grid-template-columns: 1fr;
+ gap: 24px;
+ }
+
+ .cta-section {
+ padding: 40px 24px;
+ }
+
+ .cta-section h2 {
+ font-size: 2rem;
+ }
+
+ .cta-button {
+ padding: 14px 40px;
+ font-size: 1.2rem;
+ }
+
+ footer {
+ padding: 24px;
+ flex-direction: column;
+ text-align: center;
+ }
+
+ .skew-left, .skew-right {
+ transform: none;
+ }
+ }
+
+ @media (max-width: 480px) {
+ .container {
+ padding: 16px;
+ }
+
+ header {
+ padding: 12px 16px;
+ }
+
+ .logo {
+ font-size: 1.4rem;
+ }
+
+ h1 { font-size: 2.2rem; }
+ h2 { font-size: 1.8rem; }
+ .section-title { font-size: 2rem; }
+
+ .hero h1 {
+ font-size: 2.5rem;
+ }
+
+ .hero-cta {
+ padding: 12px 32px;
+ font-size: 1rem;
+ }
+ }
+ </style>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">PBN<span>//</span>빌더</a>
-        <nav>
-            <a href="#info">정보</a>
-            <a href="#stats">데이터</a>
-            <a href="#reviews">리뷰</a>
-            <a href="#contact">문의</a>
-        </nav>
-        <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="nav-mobile" id="navMobile">
-            <a href="#info">정보</a>
-            <a href="#stats">데이터</a>
-            <a href="#reviews">리뷰</a>
-            <a href="#contact">문의</a>
-        </div>
-    </header>
+ <header>
+ <a href="#" class="logo">PBN<span>//</span>빌더</a>
+ <nav>
+ <a href="#info">정보</a>
+ <a href="#stats">데이터</a>
+ <a href="#reviews">리뷰</a>
+ <a href="#contact">문의</a>
+ </nav>
+ <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+ 
+ 
+ 
+ </button>
+ <div class="nav-mobile" id="navMobile">
+ <a href="#info">정보</a>
+ <a href="#stats">데이터</a>
+ <a href="#reviews">리뷰</a>
+ <a href="#contact">문의</a>
+ </div>
+ </header>
 
 <main>
 <section class="hero container">
 <p class="label">마포 · PBN 빌더</p>
 <h1>마포 신작애니 채널과 PBN 빌더 정보</h1>
 <p class="text">이 페이지는 신작 애니메이션 소식을 다루는 콘텐츠 채널이 어떤 구조로 운영되는지, 그리고 이 구조를 만드는 데 쓰이는 PBN 빌더 서비스가 무엇인지를 함께 안내한다.</p>
-<div class="hero-cta"><a class="cta-button" href="tel:+821062790862">+821062790862</a></div>
+
 </section>
 
 <section class="container">
@@ -718,7 +716,7 @@
 </section>
 
 <section class="cta-section container">
-<p class="text">문의 전화 <a class="cta-button" href="tel:+821062790862">+821062790862</a></p>
+<p class="text">문의 전화 </p>
 </section>
 </main>
 

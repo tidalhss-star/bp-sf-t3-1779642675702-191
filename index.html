@@ -1,717 +1,691 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <meta name="keywords" content="PBN 빌더, 신작 애니, 마포, PBN, 빌더, 애니메이션, 사이트, 네트워크">
-    <meta name="description" content="PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축. 원시 콘크리트 미학의 브루탈리스트 디자인 시스템. 010-6279-0862">
-    <meta property="og:title" content="PBN 빌더 | 마포 신작 애니 데이터 네트워크">
-    <meta property="og:description" content="PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축. 원시 콘크리트 미학의 브루탈리스트 디자인 시스템. 010-6279-0862">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sf-t3-1779642675702-191.maphoshirts.xyz/">
-    <meta property="og:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="PBN 빌더 | 마포 신작 애니 데이터 네트워크">
-    <meta name="twitter:description" content="PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축.">
-    <meta name="twitter:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
-    <link rel="canonical" href="https://sf-t3-1779642675702-191.maphoshirts.xyz/">
-    <title>PBN 빌더 | 마포 신작 애니 데이터 네트워크</title>
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "PBN 빌더 | 마포 신작 애니 데이터 네트워크",
-  "url": "https://sf-t3-1779642675702-191.maphoshirts.xyz/",
-  "description": "PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축.",
-  "telephone": "010-6279-0862",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "마포",
-    "addressCountry": "KR"
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "09:00",
-    "closes": "18:00"
-  }
-}</script>
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-            background-color: #1a1a1a;
-            color: #e5e5e5;
-            line-height: 1.4;
-            overflow-x: hidden;
-            min-height: 100vh;
-        }
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        ul, ol {
-            list-style: none;
-        }
-        /* Typography - brutalist raw */
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Impact', 'Arial Black', 'Franklin Gothic Heavy', system-ui, sans-serif;
-            font-weight: 900;
-            letter-spacing: -0.02em;
-            text-transform: uppercase;
-            color: #e5e5e5;
-        }
-        h1 {
-            font-size: clamp(3.5rem, 12vw, 6rem);
-            line-height: 0.9;
-            margin-bottom: 1rem;
-        }
-        h2 {
-            font-size: clamp(2.5rem, 8vw, 4rem);
-            line-height: 1;
-            margin-bottom: 1.5rem;
-            border-bottom: 4px solid #ff6b35;
-            display: inline-block;
-            padding-bottom: 0.25rem;
-        }
-        h3 {
-            font-size: clamp(1.5rem, 4vw, 2.2rem);
-            line-height: 1.1;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.125rem;
-            margin-bottom: 1.25rem;
-            max-width: 72ch;
-        }
-        .accent {
-            color: #ff6b35;
-        }
-        .bg-accent {
-            background-color: #ff6b35;
-            color: #1a1a1a;
-        }
-        .border-accent {
-            border: 4px solid #ff6b35;
-        }
-        .border-light {
-            border: 4px solid #e5e5e5;
-        }
-        .border-dark {
-            border: 4px solid #1a1a1a;
-        }
-        .skew-left {
-            transform: skewX(-2deg);
-        }
-        .skew-right {
-            transform: skewX(2deg);
-        }
-        .rotate-neg {
-            transform: rotate(-1deg);
-        }
-        .rotate-pos {
-            transform: rotate(1deg);
-        }
-        /* Layout */
-        .container {
-            padding: 0 48px;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 24px;
-            }
-        }
-        section {
-            padding: 80px 0;
-        }
-        .section-gap {
-            margin-bottom: 80px;
-        }
-        .grid-2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
-        }
-        .grid-3 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 32px;
-        }
-        .grid-4 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 32px;
-        }
-        @media (max-width: 768px) {
-            .grid-2, .grid-3, .grid-4 {
-                grid-template-columns: 1fr;
-            }
-        }
-        .flex-center {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .flex-between {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .gap-32 {
-            gap: 32px;
-        }
-        .text-center {
-            text-align: center;
-        }
-        .full-bleed {
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
-        }
-        .asymmetric-block {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 32px;
-        }
-        .asymmetric-block > * {
-            flex: 1 1 300px;
-        }
-        .overlap {
-            margin-top: -40px;
-            position: relative;
-            z-index: 2;
-        }
-        /* Header & Nav */
-        header {
-            background-color: #1a1a1a;
-            border-bottom: 4px solid #ff6b35;
-            padding: 24px 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
-        }
-        .logo {
-            font-family: 'Impact', 'Arial Black', system-ui, sans-serif;
-            font-size: 2rem;
-            font-weight: 900;
-            color: #ff6b35;
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            line-height: 1;
-        }
-        .logo span {
-            color: #e5e5e5;
-        }
-        nav ul {
-            display: flex;
-            gap: 24px;
-            align-items: center;
-        }
-        nav a {
-            font-weight: 700;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-            padding: 8px 12px;
-            border: 2px solid transparent;
-            transition: border-color 0.2s;
-        }
-        nav a:hover {
-            border-color: #ff6b35;
-        }
-        .nav-cta {
-            background-color: #ff6b35;
-            color: #1a1a1a;
-            padding: 10px 20px;
-            font-weight: 900;
-            border: none;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 6px;
-            padding: 4px;
-            background: none;
-            border: 2px solid #e5e5e5;
-            width: 40px;
-            height: 40px;
-            justify-content: center;
-            align-items: center;
-        }
-        .hamburger span {
-            display: block;
-            width: 24px;
-            height: 3px;
-            background-color: #e5e5e5;
-            transition: all 0.3s;
-        }
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-            nav ul {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                padding: 24px 0;
-                gap: 12px;
-                background-color: #1a1a1a;
-                border-top: 4px solid #ff6b35;
-                margin-top: 16px;
-            }
-            nav ul.active {
-                display: flex;
-            }
-            nav a {
-                width: 100%;
-                text-align: center;
-                padding: 12px;
-                border: 2px solid #333;
-            }
-            .header-inner {
-                flex-wrap: wrap;
-            }
-        }
-        /* Hero */
-        .hero {
-            min-height: 70vh;
-            display: flex;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-            background: #1a1a1a;
-            padding: 80px 0;
-        }
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -20%;
-            right: -10%;
-            width: 60%;
-            height: 120%;
-            background: repeating-linear-gradient(
-                45deg,
-                transparent,
-                transparent 20px,
-                rgba(255, 107, 53, 0.08) 20px,
-                rgba(255, 107, 53, 0.08) 40px
-            );
-            transform: skewX(-5deg);
-            z-index: 0;
-        }
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            max-width: 800px;
-        }
-        .hero-badge {
-            display: inline-block;
-            background-color: #ff6b35;
-            color: #1a1a1a;
-            padding: 8px 24px;
-            font-weight: 900;
-            font-size: 0.85rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 24px;
-            border: none;
-        }
-        .hero-stats {
-            display: flex;
-            gap: 48px;
-            margin-top: 32px;
-            flex-wrap: wrap;
-        }
-        .stat-item {
-            border-left: 4px solid #ff6b35;
-            padding-left: 16px;
-        }
-        .stat-number {
-            font-family: 'Impact', 'Arial Black', system-ui, sans-serif;
-            font-size: 2.5rem;
-            font-weight: 900;
-            color: #ff6b35;
-            line-height: 1;
-        }
-        .stat-label {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: #a0a0a0;
-        }
-        .hero-cta {
-            display: inline-block;
-            background-color: #ff6b35;
-            color: #1a1a1a;
-            padding: 16px 48px;
-            font-weight: 900;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            border: none;
-            margin-top: 24px;
-            letter-spacing: 0.05em;
-            transition: background 0.2s;
-        }
-        .hero-cta:hover {
-            background-color: #e55a2b;
-        }
-        @media (max-width: 768px) {
-            .hero-stats {
-                gap: 24px;
-            }
-        }
-        /* Cards */
-        .card {
-            background-color: #222;
-            border: 4px solid #333;
-            padding: 32px;
-            transition: border-color 0.2s;
-        }
-        .card:hover {
-            border-color: #ff6b35;
-        }
-        .card-accent {
-            border-color: #ff6b35;
-        }
-        .card-title {
-            font-size: 1.5rem;
-            font-weight: 900;
-            margin-bottom: 12px;
-            text-transform: uppercase;
-        }
-        .card-meta {
-            font-size: 0.8rem;
-            color: #a0a0a0;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            display: flex;
-            gap: 16px;
-            margin-bottom: 16px;
-        }
-        .stars {
-            color: #ff6b35;
-            font-size: 1.2rem;
-            letter-spacing: 2px;
-        }
-        .review-text {
-            font-style: italic;
-            border-left: 4px solid #ff6b35;
-            padding-left: 16px;
-            margin-top: 8px;
-        }
-        /* Service blocks */
-        .service-block {
-            background: #222;
-            border: 4px solid #333;
-            padding: 40px;
-            position: relative;
-        }
-        .service-block::after {
-            content: '⧩';
-            position: absolute;
-            bottom: 16px;
-            right: 20px;
-            font-size: 3rem;
-            color: #ff6b35;
-            opacity: 0.3;
-        }
-        .service-icon {
-            font-size: 3rem;
-            margin-bottom: 16px;
-            display: block;
-        }
-        /* Footer */
-        footer {
-            background-color: #111;
-            border-top: 4px solid #ff6b35;
-            padding: 48px 0;
-            margin-top: 80px;
-        }
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
-            gap: 32px;
-        }
-        @media (max-width: 768px) {
-            .footer-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-        @media (max-width: 480px) {
-            .footer-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-        .footer-logo {
-            font-family: 'Impact', 'Arial Black', system-ui, sans-serif;
-            font-size: 1.8rem;
-            color: #ff6b35;
-        }
-        .footer-links a {
-            display: block;
-            padding: 6px 0;
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-            border-bottom: 1px solid #222;
-        }
-        .footer-links a:hover {
-            color: #ff6b35;
-        }
-        .copyright {
-            margin-top: 48px;
-            padding-top: 24px;
-            border-top: 2px solid #222;
-            font-size: 0.8rem;
-            color: #666;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        /* Raw texture overlays */
-        .texture-overlay {
-            position: relative;
-        }
-        .texture-overlay::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-            pointer-events: none;
-            z-index: 1;
-        }
-        /* buttons */
-        .btn-outline {
-            display: inline-block;
-            border: 4px solid #ff6b35;
-            color: #ff6b35;
-            padding: 12px 32px;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            background: transparent;
-            transition: background 0.2s, color 0.2s;
-        }
-        .btn-outline:hover {
-            background: #ff6b35;
-            color: #1a1a1a;
-        }
-        .btn-solid {
-            display: inline-block;
-            background: #ff6b35;
-            color: #1a1a1a;
-            padding: 12px 32px;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border: none;
-            transition: background 0.2s;
-        }
-        .btn-solid:hover {
-            background: #e55a2b;
-        }
-        /* misc */
-        .divider {
-            width: 100%;
-            height: 4px;
-            background: #ff6b35;
-            margin: 32px 0;
-        }
-        .tag {
-            display: inline-block;
-            background: #333;
-            padding: 4px 16px;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border: 2px solid #444;
-        }
-        .tag-accent {
-            background: #ff6b35;
-            color: #1a1a1a;
-            border-color: #ff6b35;
-        }
-        .phone-link {
-            font-weight: 900;
-            font-size: 1.2rem;
-            color: #ff6b35;
-            border-bottom: 2px solid #ff6b35;
-        }
-        .phone-link:hover {
-            color: #e55a2b;
-        }
-        /* responsive adjustments */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.8rem;
-            }
-            h2 {
-                font-size: 2rem;
-            }
-            section {
-                padding: 48px 0;
-            }
-            .hero {
-                min-height: 50vh;
-                padding: 48px 0;
-            }
-            .container {
-                padding: 0 24px;
-            }
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="keywords" content="PBN 빌더, 신작 애니, 마포, PBN, 빌더, 애니메이션, 사이트, 네트워크">
+ <meta name="description" content="PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축. 원시 콘크리트 미학의 브루탈리스트 디자인 시스템.">
+ <meta property="og:title" content="PBN 빌더 | 마포 신작 애니 데이터 네트워크">
+ <meta property="og:description" content="PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축. 원시 콘크리트 미학의 브루탈리스트 디자인 시스템.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://sf-t3-1779642675702-191.maphoshirts.xyz/">
+ <meta property="og:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
+ <meta property="og:locale" content="ko_KR">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="PBN 빌더 | 마포 신작 애니 데이터 네트워크">
+ <meta name="twitter:description" content="PBN 빌더 전문. 마포 지역 신작 애니메이션 데이터 기반 PBN 구축.">
+ <meta name="twitter:image" content="https://sf-t3-1779642675702-191.vercel.app/og-image.jpg">
+ <link rel="canonical" href="https://sf-t3-1779642675702-191.maphoshirts.xyz/">
+ <title>PBN 빌더 | 마포 신작 애니 데이터 네트워크</title>
+ <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "WebSite", "name": "PBN 빌더 | 마포 신작 애니 데이터 네트워크", "url": "https://sf-t3-1779642675702-191.maphoshirts.xyz/", "description": "PBN 빌더 전문.</script>
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+ body {
+ font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+ background-color: #1a1a1a;
+ color: #e5e5e5;
+ line-height: 1.4;
+ overflow-x: hidden;
+ min-height: 100vh;
+ }
+ a {
+ color: inherit;
+ text-decoration: none;
+ }
+ img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ }
+ ul, ol {
+ list-style: none;
+ }
+ /* Typography - brutalist raw */
+ h1, h2, h3, h4, h5, h6 {
+ font-family: 'Impact', 'Arial Black', 'Franklin Gothic Heavy', system-ui, sans-serif;
+ font-weight: 900;
+ letter-spacing: -0.02em;
+ text-transform: uppercase;
+ color: #e5e5e5;
+ }
+ h1 {
+ font-size: clamp(3.5rem, 12vw, 6rem);
+ line-height: 0.9;
+ margin-bottom: 1rem;
+ }
+ h2 {
+ font-size: clamp(2.5rem, 8vw, 4rem);
+ line-height: 1;
+ margin-bottom: 1.5rem;
+ border-bottom: 4px solid #ff6b35;
+ display: inline-block;
+ padding-bottom: 0.25rem;
+ }
+ h3 {
+ font-size: clamp(1.5rem, 4vw, 2.2rem);
+ line-height: 1.1;
+ margin-bottom: 1rem;
+ }
+ p {
+ font-size: 1.125rem;
+ margin-bottom: 1.25rem;
+ max-width: 72ch;
+ }
+ .accent {
+ color: #ff6b35;
+ }
+ .bg-accent {
+ background-color: #ff6b35;
+ color: #1a1a1a;
+ }
+ .border-accent {
+ border: 4px solid #ff6b35;
+ }
+ .border-light {
+ border: 4px solid #e5e5e5;
+ }
+ .border-dark {
+ border: 4px solid #1a1a1a;
+ }
+ .skew-left {
+ transform: skewX(-2deg);
+ }
+ .skew-right {
+ transform: skewX(2deg);
+ }
+ .rotate-neg {
+ transform: rotate(-1deg);
+ }
+ .rotate-pos {
+ transform: rotate(1deg);
+ }
+ /* Layout */
+ .container {
+ padding: 0 48px;
+ max-width: 1400px;
+ margin: 0 auto;
+ }
+ @media (max-width: 768px) {
+ .container {
+ padding: 0 24px;
+ }
+ }
+ section {
+ padding: 80px 0;
+ }
+ .section-gap {
+ margin-bottom: 80px;
+ }
+ .grid-2 {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 32px;
+ }
+ .grid-3 {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 32px;
+ }
+ .grid-4 {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 32px;
+ }
+ @media (max-width: 768px) {
+ .grid-2, .grid-3, .grid-4 {
+ grid-template-columns: 1fr;
+ }
+ }
+ .flex-center {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ .flex-between {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+ .gap-32 {
+ gap: 32px;
+ }
+ .text-center {
+ text-align: center;
+ }
+ .full-bleed {
+ width: 100vw;
+ margin-left: calc(-50vw + 50%);
+ }
+ .asymmetric-block {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 32px;
+ }
+ .asymmetric-block > * {
+ flex: 1 1 300px;
+ }
+ .overlap {
+ margin-top: -40px;
+ position: relative;
+ z-index: 2;
+ }
+ /* Header & Nav */
+ header {
+ background-color: #1a1a1a;
+ border-bottom: 4px solid #ff6b35;
+ padding: 24px 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 16px;
+ }
+ .logo {
+ font-family: 'Impact', 'Arial Black', system-ui, sans-serif;
+ font-size: 2rem;
+ font-weight: 900;
+ color: #ff6b35;
+ text-transform: uppercase;
+ letter-spacing: -0.02em;
+ line-height: 1;
+ }
+ .logo span {
+ color: #e5e5e5;
+ }
+ nav ul {
+ display: flex;
+ gap: 24px;
+ align-items: center;
+ }
+ nav a {
+ font-weight: 700;
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ letter-spacing: 0.05em;
+ padding: 8px 12px;
+ border: 2px solid transparent;
+ transition: border-color 0.2s;
+ }
+ nav a:hover {
+ border-color: #ff6b35;
+ }
+ .nav-cta {
+ background-color: #ff6b35;
+ color: #1a1a1a;
+ padding: 10px 20px;
+ font-weight: 900;
+ border: none;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 6px;
+ padding: 4px;
+ background: none;
+ border: 2px solid #e5e5e5;
+ width: 40px;
+ height: 40px;
+ justify-content: center;
+ align-items: center;
+ }
+ .hamburger span {
+ display: block;
+ width: 24px;
+ height: 3px;
+ background-color: #e5e5e5;
+ transition: all 0.3s;
+ }
+ @media (max-width: 768px) {
+ .hamburger {
+ display: flex;
+ }
+ nav ul {
+ display: none;
+ flex-direction: column;
+ width: 100%;
+ padding: 24px 0;
+ gap: 12px;
+ background-color: #1a1a1a;
+ border-top: 4px solid #ff6b35;
+ margin-top: 16px;
+ }
+ nav ul.active {
+ display: flex;
+ }
+ nav a {
+ width: 100%;
+ text-align: center;
+ padding: 12px;
+ border: 2px solid #333;
+ }
+ .header-inner {
+ flex-wrap: wrap;
+ }
+ }
+ /* Hero */
+ .hero {
+ min-height: 70vh;
+ display: flex;
+ align-items: center;
+ position: relative;
+ overflow: hidden;
+ background: #1a1a1a;
+ padding: 80px 0;
+ }
+ .hero::before {
+ content: '';
+ position: absolute;
+ top: -20%;
+ right: -10%;
+ width: 60%;
+ height: 120%;
+ background: repeating-linear-gradient(
+ 45deg,
+ transparent,
+ transparent 20px,
+ rgba(255, 107, 53, 0.08) 20px,
+ rgba(255, 107, 53, 0.08) 40px
+ );
+ transform: skewX(-5deg);
+ z-index: 0;
+ }
+ .hero-content {
+ position: relative;
+ z-index: 1;
+ max-width: 800px;
+ }
+ .hero-badge {
+ display: inline-block;
+ background-color: #ff6b35;
+ color: #1a1a1a;
+ padding: 8px 24px;
+ font-weight: 900;
+ font-size: 0.85rem;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ margin-bottom: 24px;
+ border: none;
+ }
+ .hero-stats {
+ display: flex;
+ gap: 48px;
+ margin-top: 32px;
+ flex-wrap: wrap;
+ }
+ .stat-item {
+ border-left: 4px solid #ff6b35;
+ padding-left: 16px;
+ }
+ .stat-number {
+ font-family: 'Impact', 'Arial Black', system-ui, sans-serif;
+ font-size: 2.5rem;
+ font-weight: 900;
+ color: #ff6b35;
+ line-height: 1;
+ }
+ .stat-label {
+ font-size: 0.85rem;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ color: #a0a0a0;
+ }
+ .hero-cta {
+ display: inline-block;
+ background-color: #ff6b35;
+ color: #1a1a1a;
+ padding: 16px 48px;
+ font-weight: 900;
+ font-size: 1.2rem;
+ text-transform: uppercase;
+ border: none;
+ margin-top: 24px;
+ letter-spacing: 0.05em;
+ transition: background 0.2s;
+ }
+ .hero-cta:hover {
+ background-color: #e55a2b;
+ }
+ @media (max-width: 768px) {
+ .hero-stats {
+ gap: 24px;
+ }
+ }
+ /* Cards */
+ .card {
+ background-color: #222;
+ border: 4px solid #333;
+ padding: 32px;
+ transition: border-color 0.2s;
+ }
+ .card:hover {
+ border-color: #ff6b35;
+ }
+ .card-accent {
+ border-color: #ff6b35;
+ }
+ .card-title {
+ font-size: 1.5rem;
+ font-weight: 900;
+ margin-bottom: 12px;
+ text-transform: uppercase;
+ }
+ .card-meta {
+ font-size: 0.8rem;
+ color: #a0a0a0;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ display: flex;
+ gap: 16px;
+ margin-bottom: 16px;
+ }
+ .stars {
+ color: #ff6b35;
+ font-size: 1.2rem;
+ letter-spacing: 2px;
+ }
+ .review-text {
+ font-style: italic;
+ border-left: 4px solid #ff6b35;
+ padding-left: 16px;
+ margin-top: 8px;
+ }
+ /* Service blocks */
+ .service-block {
+ background: #222;
+ border: 4px solid #333;
+ padding: 40px;
+ position: relative;
+ }
+ .service-block::after {
+ content: '⧩';
+ position: absolute;
+ bottom: 16px;
+ right: 20px;
+ font-size: 3rem;
+ color: #ff6b35;
+ opacity: 0.3;
+ }
+ .service-icon {
+ font-size: 3rem;
+ margin-bottom: 16px;
+ display: block;
+ }
+ /* Footer */
+ footer {
+ background-color: #111;
+ border-top: 4px solid #ff6b35;
+ padding: 48px 0;
+ margin-top: 80px;
+ }
+ .footer-grid {
+ display: grid;
+ grid-template-columns: 2fr 1fr 1fr 1fr;
+ gap: 32px;
+ }
+ @media (max-width: 768px) {
+ .footer-grid {
+ grid-template-columns: 1fr 1fr;
+ }
+ }
+ @media (max-width: 480px) {
+ .footer-grid {
+ grid-template-columns: 1fr;
+ }
+ }
+ .footer-logo {
+ font-family: 'Impact', 'Arial Black', system-ui, sans-serif;
+ font-size: 1.8rem;
+ color: #ff6b35;
+ }
+ .footer-links a {
+ display: block;
+ padding: 6px 0;
+ font-size: 0.9rem;
+ text-transform: uppercase;
+ letter-spacing: 0.03em;
+ border-bottom: 1px solid #222;
+ }
+ .footer-links a:hover {
+ color: #ff6b35;
+ }
+ .copyright {
+ margin-top: 48px;
+ padding-top: 24px;
+ border-top: 2px solid #222;
+ font-size: 0.8rem;
+ color: #666;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ }
+ /* Raw texture overlays */
+ .texture-overlay {
+ position: relative;
+ }
+ .texture-overlay::before {
+ content: '';
+ position: absolute;
+ inset: 0;
+ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+ pointer-events: none;
+ z-index: 1;
+ }
+ /* buttons */
+ .btn-outline {
+ display: inline-block;
+ border: 4px solid #ff6b35;
+ color: #ff6b35;
+ padding: 12px 32px;
+ font-weight: 900;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ background: transparent;
+ transition: background 0.2s, color 0.2s;
+ }
+ .btn-outline:hover {
+ background: #ff6b35;
+ color: #1a1a1a;
+ }
+ .btn-solid {
+ display: inline-block;
+ background: #ff6b35;
+ color: #1a1a1a;
+ padding: 12px 32px;
+ font-weight: 900;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ border: none;
+ transition: background 0.2s;
+ }
+ .btn-solid:hover {
+ background: #e55a2b;
+ }
+ /* misc */
+ .divider {
+ width: 100%;
+ height: 4px;
+ background: #ff6b35;
+ margin: 32px 0;
+ }
+ .tag {
+ display: inline-block;
+ background: #333;
+ padding: 4px 16px;
+ font-size: 0.75rem;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ border: 2px solid #444;
+ }
+ .tag-accent {
+ background: #ff6b35;
+ color: #1a1a1a;
+ border-color: #ff6b35;
+ }
+ .phone-link {
+ font-weight: 900;
+ font-size: 1.2rem;
+ color: #ff6b35;
+ border-bottom: 2px solid #ff6b35;
+ }
+ .phone-link:hover {
+ color: #e55a2b;
+ }
+ /* responsive adjustments */
+ @media (max-width: 768px) {
+ h1 {
+ font-size: 2.8rem;
+ }
+ h2 {
+ font-size: 2rem;
+ }
+ section {
+ padding: 48px 0;
+ }
+ .hero {
+ min-height: 50vh;
+ padding: 48px 0;
+ }
+ .container {
+ padding: 0 24px;
+ }
+ }
+ </style>
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/" class="logo">PBN<span>빌더</span></a>
-            <nav>
-                <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul id="nav-menu">
-                    <li><a href="#services">서비스</a></li>
-                    <li><a href="#about">소개</a></li>
-                    <li><a href="#reviews">리뷰</a></li>
-                    <li><a href="#contact">연락처</a></li>
-                    <li><a href="tel:010-6279-0862" class="nav-cta">010-6279-0862</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container header-inner">
+ <a href="/" class="logo">PBN<span>빌더</span></a>
+ <nav>
+ <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+ 
+ 
+ 
+ </button>
+ <ul id="nav-menu">
+ <li><a href="#services">서비스</a></li>
+ <li><a href="#about">소개</a></li>
+ <li><a href="#reviews">리뷰</a></li>
+ <li><a href="#contact">연락처</a></li>
+ 
+ </ul>
+ </nav>
+ </div>
+ </header>
 
 <main>
-  <section class="hero texture-overlay">
-    <div class="container hero-content">
-      <span class="hero-badge tag-accent">마포 · 신작애니 데이터</span>
-      <h1 class="accent">PBN 빌더 안내</h1>
-      <p>이 페이지는 PBN(Private Blog Network) 빌더 도구를 검토하는 이용자를 위해 기본 개념과 확인해야 할 항목을 정리한 정보 페이지다. <span class="org">마포 신작애니 데이터 네트워크</span>에서 운영하는 정보 코너로, 특정 도구의 성능을 보증하는 내용은 포함하지 않는다. 신작 애니메이션 정보처럼 발행 주기가 빠른 콘텐츠를 다루는 사이트일수록 게시 자동화 기능의 활용도가 높아지는 편이다.</p>
-      <div class="hero-stats flex-center gap-32">
-        <div class="stat-item"><span class="stat-number">4</span><span class="stat-label">핵심 확인 항목</span></div>
-        <div class="stat-item"><span class="stat-number">3</span><span class="stat-label">가격 결정 변수</span></div>
-        <div class="stat-item"><span class="stat-number">4</span><span class="stat-label">주요 기능</span></div>
-      </div>
-      <div class="hero-cta flex-center">
-        <a class="btn-solid" href="#service">기능 살펴보기</a>
-        <a class="btn-outline phone-link" href="tel:010-6279-0862">010-6279-0862</a>
-      </div>
-    </div>
-  </section>
-  <section class="section-gap" id="service">
-    <div class="container">
-      <h2 class="text-center">PBN 빌더의 주요 기능</h2>
-      <div class="grid-4 gap-32">
-        <div class="service-block border-light">
-          <span class="service-icon">1</span>
-          <h3>도메인 관리</h3>
-          <p>보유 중인 도메인을 등록하고 상태를 한 화면에서 추적한다.</p>
-        </div>
-        <div class="service-block border-light">
-          <span class="service-icon">2</span>
-          <h3>콘텐츠 배포</h3>
-          <p>사이트별 게시 주기를 설정해 순차적으로 콘텐츠를 발행한다.</p>
-        </div>
-        <div class="service-block border-light skew-left">
-          <span class="service-icon">3</span>
-          <h3>링크 구조 설계</h3>
-          <p>티어 구조와 앵커 텍스트 분포를 조정하는 기능을 포함한다.</p>
-        </div>
-        <div class="service-block border-light skew-right">
-          <span class="service-icon">4</span>
-          <h3>결과 리포트</h3>
-          <p>색인 현황과 발행 이력을 정기적으로 정리해 보여준다.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-gap bg-accent">
-    <div class="container">
-      <h2 class="text-center">가격이 결정되는 구조</h2>
-      <p>PBN 빌더의 비용은 관리 대상 도메인 수, 자동화 범위, 지원되는 리포트 수준에 따라 달라진다. 신작애니 정보처럼 갱신 빈도가 잦은 콘텐츠를 다루는 경우 게시 주기 설정 기능의 비중이 커지는 경향이 있다. 도메인 수가 적더라도 게시 빈도가 높으면 관리 부담이 커지기 때문에, 견적은 도메인 수와 게시 빈도를 함께 놓고 비교하는 편이 정확하다.</p>
-      <div class="grid-2 gap-32">
-        <div class="card card-accent border-accent">
-          <p class="card-title">기본 구성</p>
-          <p class="card-meta">소규모 도메인 관리에 적합한 최소 기능 구성</p>
-        </div>
-        <div class="card card-accent border-accent rotate-neg">
-          <p class="card-title">확장 구성</p>
-          <p class="card-meta">다수 도메인과 리포트 기능이 포함된 구성</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-gap">
-    <div class="container">
-      <h2 class="text-center">이런 경우에 활용도가 높다</h2>
-      <div class="grid-2 gap-32">
-        <div class="card border-accent">
-          <p class="card-title">다수 도메인 운영</p>
-          <p class="card-meta">여러 사이트를 동시에 관리하며 게시 주기를 맞춰야 하는 경우</p>
-        </div>
-        <div class="card border-accent">
-          <p class="card-title">빠른 갱신이 필요한 콘텐츠</p>
-          <p class="card-meta">신작 정보처럼 발행 주기가 짧아 수작업 관리가 부담스러운 경우</p>
-        </div>
-        <div class="card border-accent rotate-pos">
-          <p class="card-title">여러 운영자가 협업하는 경우</p>
-          <p class="card-meta">권한을 나눠 여러 사람이 함께 콘텐츠를 등록·검수해야 하는 경우</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-gap">
-    <div class="container asymmetric-block overlap">
-      <h2>도입 전 체크리스트</h2>
-      <ul class="divider">
-        <li><span class="tag">호환성</span> 보유 도메인과 플랫폼 지원 여부 확인</li>
-        <li><span class="tag">품질 검수</span> 자동 게시 콘텐츠의 검수 절차 존재 여부</li>
-        <li><span class="tag">위험 안내</span> 계정 정지 등 위험 요소에 대한 사전 안내 여부</li>
-        <li><span class="tag">이관 절차</span> 계약 해지 시 데이터 이관 방법</li>
-        <li><span class="tag">갱신 주기</span> 신작 정보 등 빠른 갱신이 필요한 콘텐츠의 지원 여부</li>
-        <li><span class="tag">지원 응답</span> 장애 발생 시 문의할 수 있는 채널과 응답 속도</li>
-      </ul>
-    </div>
-  </section>
-  <section class="section-gap flex-between border-dark full-bleed">
-    <div class="container text-center">
-      <h2>문의</h2>
-      <p>운영 관련 문의는 아래 연락처로 가능하다.</p>
-      <a class="phone-link btn-solid" href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
+ <section class="hero texture-overlay">
+ <div class="container hero-content">
+ <span class="hero-badge tag-accent">마포 · 신작애니 데이터</span>
+ <h1 class="accent">PBN 빌더 안내</h1>
+ <p>이 페이지는 PBN(Private Blog Network) 빌더 도구를 검토하는 이용자를 위해 기본 개념과 확인해야 할 항목을 정리한 정보 페이지다. <span class="org">마포 신작애니 데이터 네트워크</span>에서 운영하는 정보 코너로, 특정 도구의 성능을 보증하는 내용은 포함하지 않는다. 신작 애니메이션 정보처럼 발행 주기가 빠른 콘텐츠를 다루는 사이트일수록 게시 자동화 기능의 활용도가 높아지는 편이다.</p>
+ <div class="hero-stats flex-center gap-32">
+ <div class="stat-item"><span class="stat-number">4</span><span class="stat-label">핵심 확인 항목</span></div>
+ <div class="stat-item"><span class="stat-number">3</span><span class="stat-label">가격 결정 변수</span></div>
+ <div class="stat-item"><span class="stat-number">4</span><span class="stat-label">주요 기능</span></div>
+ </div>
+ <div class="hero-cta flex-center">
+ <a class="btn-solid" href="#service">기능 살펴보기</a>
+ 
+ </div>
+ </div>
+ </section>
+ <section class="section-gap" id="service">
+ <div class="container">
+ <h2 class="text-center">PBN 빌더의 주요 기능</h2>
+ <div class="grid-4 gap-32">
+ <div class="service-block border-light">
+ <span class="service-icon">1</span>
+ <h3>도메인 관리</h3>
+ <p>보유 중인 도메인을 등록하고 상태를 한 화면에서 추적한다.</p>
+ </div>
+ <div class="service-block border-light">
+ <span class="service-icon">2</span>
+ <h3>콘텐츠 배포</h3>
+ <p>사이트별 게시 주기를 설정해 순차적으로 콘텐츠를 발행한다.</p>
+ </div>
+ <div class="service-block border-light skew-left">
+ <span class="service-icon">3</span>
+ <h3>링크 구조 설계</h3>
+ <p>티어 구조와 앵커 텍스트 분포를 조정하는 기능을 포함한다.</p>
+ </div>
+ <div class="service-block border-light skew-right">
+ <span class="service-icon">4</span>
+ <h3>결과 리포트</h3>
+ <p>색인 현황과 발행 이력을 정기적으로 정리해 보여준다.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section class="section-gap bg-accent">
+ <div class="container">
+ <h2 class="text-center">가격이 결정되는 구조</h2>
+ <p>PBN 빌더의 비용은 관리 대상 도메인 수, 자동화 범위, 지원되는 리포트 수준에 따라 달라진다. 신작애니 정보처럼 갱신 빈도가 잦은 콘텐츠를 다루는 경우 게시 주기 설정 기능의 비중이 커지는 경향이 있다. 도메인 수가 적더라도 게시 빈도가 높으면 관리 부담이 커지기 때문에, 견적은 도메인 수와 게시 빈도를 함께 놓고 비교하는 편이 정확하다.</p>
+ <div class="grid-2 gap-32">
+ <div class="card card-accent border-accent">
+ <p class="card-title">기본 구성</p>
+ <p class="card-meta">소규모 도메인 관리에 적합한 최소 기능 구성</p>
+ </div>
+ <div class="card card-accent border-accent rotate-neg">
+ <p class="card-title">확장 구성</p>
+ <p class="card-meta">다수 도메인과 리포트 기능이 포함된 구성</p>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section class="section-gap">
+ <div class="container">
+ <h2 class="text-center">이런 경우에 활용도가 높다</h2>
+ <div class="grid-2 gap-32">
+ <div class="card border-accent">
+ <p class="card-title">다수 도메인 운영</p>
+ <p class="card-meta">여러 사이트를 동시에 관리하며 게시 주기를 맞춰야 하는 경우</p>
+ </div>
+ <div class="card border-accent">
+ <p class="card-title">빠른 갱신이 필요한 콘텐츠</p>
+ <p class="card-meta">신작 정보처럼 발행 주기가 짧아 수작업 관리가 부담스러운 경우</p>
+ </div>
+ <div class="card border-accent rotate-pos">
+ <p class="card-title">여러 운영자가 협업하는 경우</p>
+ <p class="card-meta">권한을 나눠 여러 사람이 함께 콘텐츠를 등록·검수해야 하는 경우</p>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section class="section-gap">
+ <div class="container asymmetric-block overlap">
+ <h2>도입 전 체크리스트</h2>
+ <ul class="divider">
+ <li><span class="tag">호환성</span> 보유 도메인과 플랫폼 지원 여부 확인</li>
+ <li><span class="tag">품질 검수</span> 자동 게시 콘텐츠의 검수 절차 존재 여부</li>
+ <li><span class="tag">위험 안내</span> 계정 정지 등 위험 요소에 대한 사전 안내 여부</li>
+ <li><span class="tag">이관 절차</span> 계약 해지 시 데이터 이관 방법</li>
+ <li><span class="tag">갱신 주기</span> 신작 정보 등 빠른 갱신이 필요한 콘텐츠의 지원 여부</li>
+ <li><span class="tag">지원 응답</span> 장애 발생 시 문의할 수 있는 채널과 응답 속도</li>
+ </ul>
+ </div>
+ </section>
+ <section class="section-gap flex-between border-dark full-bleed">
+ <div class="container text-center">
+ <h2>문의</h2>
+ <p>운영 관련 문의는 아래 연락처로 가능하다.</p>
+ 
+ </div>
+ </section>
 </main>
 
 
